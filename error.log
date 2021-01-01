@@ -1,0 +1,9 @@
+[Thu Dec 31 06:46:23.991595 2020] [wsgi:error] [pid 10657:tid 1965216800] [remote 10.0.0.96:52814] TabError: inconsistent use of tabs and spaces in indentation
+[Thu Dec 31 06:46:24.393507 2020] [wsgi:error] [pid 10657:tid 1931645984] [remote 10.0.0.96:52815] mod_wsgi (pid=10657): Failed to exec Python script file '/var/www/led/led.wsgi'.
+[Thu Dec 31 06:46:24.393924 2020] [wsgi:error] [pid 10657:tid 1931645984] [remote 10.0.0.96:52815] mod_wsgi (pid=10657): Exception occurred processing WSGI script '/var/www/led/led.wsgi'.
+[Thu Dec 31 06:46:24.394679 2020] [wsgi:error] [pid 10657:tid 1931645984] [remote 10.0.0.96:52815] Traceback (most recent call last):
+[Thu Dec 31 06:46:24.395078 2020] [wsgi:error] [pid 10657:tid 1931645984] [remote 10.0.0.96:52815]   File "/var/www/led/led.wsgi", line 10, in <module>
+[Thu Dec 31 06:46:24.395174 2020] [wsgi:error] [pid 10657:tid 1931645984] [remote 10.0.0.96:52815]     from led import app as application
+[Thu Dec 31 06:46:24.395359 2020] [wsgi:error] [pid 10657:tid 1931645984] [remote 10.0.0.96:52815]   File "/var/www/led/led.py", line 16
+[Thu Dec 31 06:46:24.395501 2020] [wsgi:error] [pid 10657:tid 1931645984] [remote 10.0.0.96:52815]     if led == "ledrelay1":
+[Thu Dec 31 06:46:24.395770 2020] [wsgi:error] [pid 10657:tid 1931645984] [remote 10.0.0.96:52815]                          ^
